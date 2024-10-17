@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Elnata Correa",
-      url: "https://my-portfolio-seven-theta-28.vercel.app/",
+      url: "https://stec-repo.vercel.app/",
     },
   ],
   openGraph: {
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     description: "Desenvolvendo sua solução",
     images: [
       {
-        url: "https://my-portfolio-seven-theta-28.vercel.app/portifolio-elnata.png",
+        url: "https://stec-repo.vercel.app/",
         alt: "Stec",
       }
     ],
