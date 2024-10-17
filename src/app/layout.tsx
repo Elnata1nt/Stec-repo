@@ -28,19 +28,17 @@ export const metadata: Metadata = {
     },
   ],
   openGraph: {
-
     title: "Stec",
-    description: "Desenvolvendo sua solução",
+    description: "Desenvolvendo sua solução com IA",
     images: [
       {
         url: "https://stec-repo.vercel.app/stec-page.png",
-        alt: "Stec",
-      }
+        alt: "Imagem da página Stec",
+      },
     ],
-    authors: "Elnata",
-  }
+    authors: ["Elnata Correa"],
+  },
 };
-
 
 export default function RootLayout({
   children,
@@ -48,11 +46,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <head>
         {/* Adicionando o favicon */}
-        <link rel="icon" href="/Stec.png" sizes="any" type="image/x-icon" />
-        <title>{"Stec"}</title>
+        <link rel="icon" href="/favicon.ico" sizes="any" type="image/x-icon" />
+        <title>Stec</title>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
