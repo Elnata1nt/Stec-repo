@@ -22,7 +22,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           <div className="lg:col-span-2">
-            <h2 className="text-3xl font-bold mb-6">NEXUS</h2>
+            <h2 className="text-3xl font-bold mb-6">STEC</h2>
             <p className="text-gray-400 mb-8 max-w-md">
               Transformando ideias em realidade digital. Somos especialistas em criar soluções inovadoras que impulsionam o seu negócio para o futuro.
             </p>
@@ -84,7 +84,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-16 pt-8 border-t border-gray-800 text-center text-sm text-gray-400">
-          <p>© {new Date().getFullYear()} Nexus. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} STEC. Todos os direitos reservados.</p>
         </div>
       </div>
       <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-purple-500 via-blue-500 to-purple-500"></div>
