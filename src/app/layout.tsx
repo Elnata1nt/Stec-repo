@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     description: "Desenvolvendo sua solução",
     images: [
       {
-        url: "https://stec-repo.vercel.app/",
+        url: "https://stec-repo.vercel.app/stec-page.png",
         alt: "Stec",
       }
     ],
