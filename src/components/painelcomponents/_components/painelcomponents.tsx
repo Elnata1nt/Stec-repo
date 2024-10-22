@@ -9,7 +9,7 @@ import { ScrollArea } from "@/components/ui/scroll-area"
 export default function ScriptInterface() {
   return (
     <div className="flex h-screen bg-background">
-      {/* Left Sidebar */}
+      {/* Barra Lateral Esquerda */}
       <div className="w-64 border-r p-4 flex flex-col">
         <div className="flex items-center mb-6">
           <Layout className="mr-2" />
@@ -17,50 +17,50 @@ export default function ScriptInterface() {
         </div>
         <div className="relative mb-4">
           <Search className="absolute left-2 top-2.5 h-4 w-4 text-muted-foreground" />
-          <Input placeholder="Search" className="pl-8" />
+          <Input placeholder="Pesquisar" className="pl-8" />
         </div>
         <nav className="space-y-2 flex-1">
           <Button variant="ghost" className="w-full justify-start">
             <Layout className="mr-2 h-4 w-4" />
-            AI Chat
+            Chat AI
           </Button>
           <Button variant="ghost" className="w-full justify-start">
             <FileText className="mr-2 h-4 w-4" />
-            Projects
+            Projetos
           </Button>
           <Button variant="ghost" className="w-full justify-start">
             <FileText className="mr-2 h-4 w-4" />
-            Templates
+            Modelos
           </Button>
           <Button variant="ghost" className="w-full justify-start">
             <FileText className="mr-2 h-4 w-4" />
-            Documents
+            Documentos
           </Button>
           <Button variant="ghost" className="w-full justify-start">
             <Users className="mr-2 h-4 w-4" />
-            Community
+            Comunidade
           </Button>
           <Button variant="ghost" className="w-full justify-start">
             <Clock className="mr-2 h-4 w-4" />
-            History
+            Histórico
           </Button>
         </nav>
         <div className="mt-auto space-y-2">
           <Button variant="ghost" className="w-full justify-start">
             <Settings className="mr-2 h-4 w-4" />
-            Settings
+            Configurações
           </Button>
           <Button variant="ghost" className="w-full justify-start">
             <HelpCircle className="mr-2 h-4 w-4" />
-            Help
+            Ajuda
           </Button>
           <div className="flex justify-between items-center">
-            <span className="text-sm">Light</span>
+            <span className="text-sm">Claro</span>
             <Button variant="ghost" size="sm">
               <Sun className="h-4 w-4 mr-2" />
               <Moon className="h-4 w-4" />
             </Button>
-            <span className="text-sm">Dark</span>
+            <span className="text-sm">Escuro</span>
           </div>
           <div className="flex items-center">
             <Avatar className="h-8 w-8 mr-2">
@@ -75,11 +75,11 @@ export default function ScriptInterface() {
         </div>
       </div>
 
-      {/* Main Content */}
+      {/* Conteúdo Principal */}
       <div className="flex-1 p-8 overflow-auto">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Script</h1>
+        <h1 className="text-4xl font-bold mb-4">Bem-vindo ao Script</h1>
         <p className="text-muted-foreground mb-8">
-          Get started by Script a task and Chat can do the rest. Not sure where to start?
+          Comece criando uma tarefa e o Chat pode fazer o resto. Não sabe por onde começar?
         </p>
         <div className="grid grid-cols-2 gap-4 mb-8">
           <Card>
@@ -87,7 +87,7 @@ export default function ScriptInterface() {
               <div className="bg-yellow-100 p-2 rounded-lg mr-4">
                 <FileText className="h-6 w-6 text-yellow-600" />
               </div>
-              <span>Write copy</span>
+              <span>Escrever cópia</span>
               <PlusCircle className="ml-auto h-5 w-5 text-muted-foreground" />
             </CardContent>
           </Card>
@@ -96,7 +96,7 @@ export default function ScriptInterface() {
               <div className="bg-blue-100 p-2 rounded-lg mr-4">
                 <Layout className="h-6 w-6 text-blue-600" />
               </div>
-              <span>Image generation</span>
+              <span>Geração de imagem</span>
               <PlusCircle className="ml-auto h-5 w-5 text-muted-foreground" />
             </CardContent>
           </Card>
@@ -105,7 +105,7 @@ export default function ScriptInterface() {
               <div className="bg-green-100 p-2 rounded-lg mr-4">
                 <Users className="h-6 w-6 text-green-600" />
               </div>
-              <span>Create avatar</span>
+              <span>Criar avatar</span>
               <PlusCircle className="ml-auto h-5 w-5 text-muted-foreground" />
             </CardContent>
           </Card>
@@ -114,13 +114,13 @@ export default function ScriptInterface() {
               <div className="bg-purple-100 p-2 rounded-lg mr-4">
                 <FileText className="h-6 w-6 text-purple-600" />
               </div>
-              <span>Write code</span>
+              <span>Escrever código</span>
               <PlusCircle className="ml-auto h-5 w-5 text-muted-foreground" />
             </CardContent>
           </Card>
         </div>
         <div className="relative">
-          <Input placeholder="Summarize the latest" className="pr-20" />
+          <Input placeholder="Resumir o mais recente" className="pr-20" />
           <Button size="sm" className="absolute right-1 top-1">
             <Send className="h-4 w-4" />
           </Button>
@@ -128,27 +128,27 @@ export default function ScriptInterface() {
         <div className="flex mt-2 text-sm text-muted-foreground">
           <Button variant="ghost" size="sm">
             <Paperclip className="h-4 w-4 mr-2" />
-            Attach
+            Anexar
           </Button>
           <Button variant="ghost" size="sm">
             <Mic className="h-4 w-4 mr-2" />
-            Voice Message
+            Mensagem de voz
           </Button>
           <Button variant="ghost" size="sm">
             <Layout className="h-4 w-4 mr-2" />
-            Browse Prompts
+            Navegar por sugestões
           </Button>
-          <span className="ml-auto">20 / 3,000</span>
+          <span className="ml-auto">20 / 3.000</span>
         </div>
         <p className="text-xs text-muted-foreground mt-4">
-          Script may generate inaccurate information about people, places, or facts. Model: Script AI v1.3
+          O Script pode gerar informações imprecisas sobre pessoas, lugares ou fatos. Modelo: Script AI v1.3
         </p>
       </div>
 
-      {/* Right Sidebar */}
+      {/* Barra Lateral Direita */}
       <div className="w-64 border-l p-4">
         <div className="flex justify-between items-center mb-4">
-          <h2 className="font-semibold">Projects (7)</h2>
+          <h2 className="font-semibold">Projetos (7)</h2>
           <Button variant="ghost" size="sm">
             <PlusCircle className="h-4 w-4" />
           </Button>
@@ -157,38 +157,38 @@ export default function ScriptInterface() {
           <div className="space-y-4">
             <Card>
               <CardContent className="p-4">
-                <h3 className="font-medium">New Project</h3>
+                <h3 className="font-medium">Novo Projeto</h3>
                 <p className="text-sm text-muted-foreground">...</p>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="p-4">
-                <h3 className="font-medium">Learning From 100 Years of...</h3>
-                <p className="text-sm text-muted-foreground">For athletes, high altitude prod...</p>
+                <h3 className="font-medium">Aprendendo com 100 Anos de...</h3>
+                <p className="text-sm text-muted-foreground">Para atletas, produção em alta altitude...</p>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="p-4">
-                <h3 className="font-medium">Research officiants</h3>
-                <p className="text-sm text-muted-foreground">Maxwell's equations—the foun...</p>
+                <h3 className="font-medium">Pesquisar officiants</h3>
+                <p className="text-sm text-muted-foreground">Equações de Maxwell—os fundamentos...</p>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="p-4">
-                <h3 className="font-medium">What does a senior lead de...</h3>
-                <p className="text-sm text-muted-foreground">Physiological respiration involv...</p>
+                <h3 className="font-medium">O que faz um desenvolvedor sênior...</h3>
+                <p className="text-sm text-muted-foreground">A respiração fisiológica envolve...</p>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="p-4">
-                <h3 className="font-medium">Write a sweet note to your...</h3>
-                <p className="text-sm text-muted-foreground">In the eighteenth century the G...</p>
+                <h3 className="font-medium">Escrever uma nota doce para seu...</h3>
+                <p className="text-sm text-muted-foreground">No século dezoito, o G...</p>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="p-4">
-                <h3 className="font-medium">Meet with cake bakers</h3>
-                <p className="text-sm text-muted-foreground">Physical space is often conceiv...</p>
+                <h3 className="font-medium">Escrita AI, projeto simples e...</h3>
+                <p className="text-sm text-muted-foreground">A terapia ocupacional é um campo...</p>
               </CardContent>
             </Card>
           </div>
@@ -197,4 +197,3 @@ export default function ScriptInterface() {
     </div>
   )
 }
-
